@@ -32,7 +32,7 @@ function App() {
 
   useEffect(() => {
     const newSocket = io(
-      "https://nilsreich-socketio-x5qjg5g36wgv-5000.githubpreview.dev",
+      "https://socket-drawing-123.herokuapp.com/",
       {
         withCredentials: true,
         extraHeaders: {
